@@ -14,16 +14,14 @@ const assignment = {};
  * @returns number the sum of the numbers
  */
 function sumOfNumbers(arrayOfNumbers) {
-  const initialValue = 0;
   const sumOfArray = arrayOfNumbers.reduce(
-  (previousValue, currentValue) => previousValue + currentValue,
-  initialValue
+  (previousValue, currentValue) => previousValue + currentValue
 );
   return sumOfArray
 }
 
-// const arraySum = sumOfNumbers([1, 2, 3, 4])
-// console.log(`Sum of array is ${arraySum}`)
+assignment.sumOfNumbers = sumOfNumbers
+
 
 /**
  * Challenge - 2
@@ -45,8 +43,7 @@ function countEvenNumbers(arrayOfNumbers) {
     })
     return evenNumbers.length
 }
-// const checkForEvenNumbers = countEvenNumbers([2, 3, 6, 5, 8, 10, 14])
-// console.log(`Even numbers count is ${checkForEvenNumbers}`)
+assignment.countEvenNumbers = countEvenNumbers
 
 /**
  * Challenge - 3
@@ -71,9 +68,8 @@ function celsiusToFahrenheit(arrayOfNumbers) {
   })
     return temperatureInF;
 }
+assignment.celsiusToFahrenheit = celsiusToFahrenheit
 
-// const tempInF = celsiusToFahrenheit([32, 100, 0, 72])
-// console.log(`temperatures in Fahrenheit are ${tempInF}`)
 
 
 
