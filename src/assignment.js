@@ -22,8 +22,8 @@ function sumOfNumbers(arrayOfNumbers) {
   return sumOfArray
 }
 
-const arraySum = sumOfNumbers([1, 2, 3, 4])
-console.log(`Sum of array is ${arraySum}`)
+// const arraySum = sumOfNumbers([1, 2, 3, 4])
+// console.log(`Sum of array is ${arraySum}`)
 
 /**
  * Challenge - 2
@@ -45,8 +45,8 @@ function countEvenNumbers(arrayOfNumbers) {
     })
     return evenNumbers.length
 }
-const checkForEvenNumbers = countEvenNumbers([2, 3, 6, 5, 8, 10, 14])
-console.log(`Even numbers count is ${checkForEvenNumbers}`)
+// const checkForEvenNumbers = countEvenNumbers([2, 3, 6, 5, 8, 10, 14])
+// console.log(`Even numbers count is ${checkForEvenNumbers}`)
 
 /**
  * Challenge - 3
@@ -72,8 +72,8 @@ function celsiusToFahrenheit(arrayOfNumbers) {
     return temperatureInF;
 }
 
-const tempInF = celsiusToFahrenheit([32, 100, 0, 72])
-console.log(`temperatures in Fahrenheit are ${tempInF}`)
+// const tempInF = celsiusToFahrenheit([32, 100, 0, 72])
+// console.log(`temperatures in Fahrenheit are ${tempInF}`)
 
 
 
